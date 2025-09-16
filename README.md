@@ -39,10 +39,10 @@ You need to have [Node.js](https://nodejs.org/) (version 18 or later) and `npm` 
 ### Installation & Setup
 
 1.  **Clone the repository:**
-    Open your terminal and clone the repository to your local machine.
+    Open your terminal and clone the repository to your local machine. ```(https://github.com/photon05/gemini-chat-app.git)```
     ```bash
-    git clone [https://github.com/your-username/react-gemini-chat.git](https://github.com/your-username/react-gemini-chat.git)
-    cd react-gemini-chat
+    git clone https://github.com/photon05/gemini-chat-app.git 
+    cd gemini-chat-app
     ```
 
 2.  **Install dependencies:**
