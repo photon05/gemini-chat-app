@@ -39,9 +39,9 @@ You need to have [Node.js](https://nodejs.org/) (version 18 or later) and `npm` 
 ### Installation & Setup
 
 1.  **Clone the repository:**
-    Open your terminal and clone the repository to your local machine.
+    Open your terminal and clone the repository to your local machine. 
     ```bash
-    git [clone https://github.com/photon05/gemini-chat-app.git](https://github.com/photon05/gemini-chat-app.git)
+    git clone https://github.com/photon05/gemini-chat-app.git
     cd gemini-chat-app
     ```
 
