@@ -2,6 +2,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import ReactMarkdown from 'react-markdown';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 
 // Initialize the AI client outside of the component
@@ -87,6 +88,7 @@ function App() {
           {loading ? '...' : '➤'}
         </button>
       </div>
+      <Analytics />
     </div>
   );
 }
