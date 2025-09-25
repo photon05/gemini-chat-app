@@ -31,6 +31,12 @@ body {
   justify-content: center;
 }
 
+.welcome-message {
+  text-align: center;
+  color: #888;
+  margin-top: 2rem;
+}
+
 .chat-container {
   width: 100%;
   max-width: 800px;
@@ -103,13 +109,14 @@ body {
   background-color: var(--user-message-bg);
 }
 
-.message .text pre {
+/* .message .text {
+  color: var(--text-color);
   margin: 0;
   white-space: pre-wrap;
   word-wrap: break-word;
   font-family: inherit;
   font-size: 1rem;
-}
+} */
 
 .loading-message .text {
   display: flex;
